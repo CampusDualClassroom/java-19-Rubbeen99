@@ -37,7 +37,6 @@ public class Exercise19 {
         return getTridimensionalString(intArrayTri, flatMatrix);
     }
 
-    //TODO
     public static int[][] flatTridimensionalArray(int[][][] intArrayTri) {
         int rows = intArrayTri[0].length;
         int colums = intArrayTri[0][0].length;
@@ -54,8 +53,6 @@ public class Exercise19 {
         return arrayTriDimensional;
     }
 
-
-    // TODO
     public static String getBidimensionalString(int[][] intArrayBi) {
         StringBuilder arrayBiDimensional = new StringBuilder();
 
@@ -69,7 +66,6 @@ public class Exercise19 {
         return arrayBiDimensional.toString();
     }
 
-    // TODO
     public static String getUnidimensionalString(int[] uniArray) {
     StringBuilder arrayUniDimensional = new StringBuilder();
 
@@ -83,7 +79,6 @@ public class Exercise19 {
         return arrayUniDimensional.toString();
     }
 
-    // TODO
     public static int[] createAndPopulateUnidimensionalArray(int columns) {
         int [] uniArray = new int[columns];
 
@@ -93,7 +88,6 @@ public class Exercise19 {
         return uniArray;
     }
 
-    // TODO
     public static int[][] createAndPopulateBidimensionalArray(int rows, int columns) {
         int [][] intArrayBi = new int[rows][columns];
 
@@ -107,7 +101,6 @@ public class Exercise19 {
         return intArrayBi;
     }
 
-    // TODO
     public static int[][][] createAndPopulateTridimensionalArray(int depth, int rows, int columns) {
         int [][][] intArrayTri = new int[depth][rows][columns];
 

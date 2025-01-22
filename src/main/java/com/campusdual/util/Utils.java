@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Utils {
 
-    private Utils(){}
+    private Utils() {}
 
     public static final Random random = new Random();
     public static final DecimalFormat dF = new DecimalFormat("#.##");
